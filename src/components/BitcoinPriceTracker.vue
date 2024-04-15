@@ -6,7 +6,7 @@
         <div>
           <p class="text-xl font-medium mb-2">Current Price ({{ store.selectedCurrency }}):</p>
           <p v-if="loading" class="text-2xl text-gray-800">Loading...</p>
-          <p v-else class="text-2xl text-gray-800">${{ store.coinPrice }}</p>
+          <p v-else id="bitcoin-price" class="text-2xl text-gray-800">${{ store.coinPrice }}</p>
         </div>
       </div>
     </div>

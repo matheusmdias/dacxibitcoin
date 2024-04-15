@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Dacxi BitCoin',
+      name: 'Dacxi Crypto coin tracker',
       component: HomeView
     }
   ]
